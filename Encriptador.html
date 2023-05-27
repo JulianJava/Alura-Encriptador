@@ -1,34 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
 	<meta charset="utf-8">
 	<title>Encriptador</title>
+	<link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Encriptador.css">
   </head>
   <body>
     <header>
-	   <img src="imagenes/Vector.png" alt="Logo de alura">
+	   <img src="imagenes/Vector.png" alt="Logo de alura" class="Logo">
     </header>
    <main>
-   	 <div>
-      <textarea cols="70" rows="10" placeholder="Ingrese texto a encriptar aqui"></textarea>
-     <img src="imagenes/Vector2.png" alt="aviso de precaucion">
-     <p>Solo letras minusculas y sin acentos</p>
-      <button type="button">
-      encriptar
-   	  </button>
-      <button type="button">
-      desencriptar
-   	  </button>
-   </div>
-   <div>
-    <img src="imagenes/Rectangle 1.png">
-    <img src="imagenes/Muñeco.png">
-    <h2>Ningun mensaje fue encontrado</h2>
-    <p>Ingresa el texto que quieres encriptar o desencriptar</p>
-    <button type="button">
-     copiar texto
-    </button>
-   </div>
+   	 <section>
+       <textarea placeholder="Ingrese texto a encriptar aqui"class="Escrito" cols="70" rows="300"></textarea>
+       <div>
+        <img src="imagenes/Vector2.png" alt="aviso de precaucion"class="aviso">
+        <p class="informe" >Solo letras minusculas y sin acentos</p>
+       </div>
+       <div>
+        <button type="button" class="Encriptar">
+         <h6 class="botonTexto">Encriptar</h6>
+   	    </button>
+        <button type="button" class="desencriptar">
+         <h6 class="botonTexto">Desencriptar</h6>
+   	    </button>
+   	   </div>
+   	</section>
+    <section>
+     <textarea class="texto" cols="20" rows="10"></textarea>
+     <div>
+      <button type="button" class="botonCopiar">
+       copiar texto
+      </button>
+     </div>	
+    </section>
    </main>
   </body>
   <footer>

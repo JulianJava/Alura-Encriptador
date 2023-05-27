@@ -1,0 +1,131 @@
+body{
+background:#E5E5E5;
+font-family:'Inter';
+font-weight: 400;
+ font-size: 32px;
+line-height: 150%;
+overflow-y: hidden
+ }
+
+.Logo{
+  padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+}
+
+
+.Escrito {
+    height: 400px;
+    border: none;
+    color: #0A3871;
+    background-color:#E5E5E5 ;
+    margin-top: 30px;
+    padding: 2px;
+    text-transform: lowercase;
+}
+::placeholder {
+ color: #0A3871;
+ font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+ }
+.Escrito:focus {
+      outline: none;
+    }
+.texto{
+    height: 630px;
+    background: white;
+    background-image: url("imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: absolute;
+    left: 60em;
+    right: 10em;
+    top: 1em;
+
+}
+.texto:focus {
+    outline: none;
+}
+.aviso{
+position: absolute;
+left: 6em;
+right: 6em;
+top: 17.9em;
+bottom: 5em;
+}
+.informe{
+color: #495057;
+font-size:12px;
+opacity: 0.8;
+position: absolute;
+left: 18em;
+right: 6em;
+top: 46.2em;
+}
+.Encriptar{ 
+display: flex; 
+margin-top: 18px;
+ background-color: #0A3871;
+ border: 1px solid #0A3871;
+ border-radius: 24px;
+color: white;
+cursor: pointer;
+height: 67px;
+width: 328px;
+position: absolute;
+left: 15em;
+right: 15em;
+top: 43em;
+}
+.botonTexto{
+text-align: center;
+width: 280px;
+height: 19px;
+margin: auto;
+
+}
+.desencriptar{
+display: flex;
+margin-top: 18px;
+ background: #D8DFE8;
+border: 1px solid #0A3871;
+border-radius: 24px;
+color: #0A3871;
+cursor: pointer;
+height: 67px;
+margin-left: 30px;
+width: 328px;
+position: absolute;
+left: 40em;
+right: 40em;
+top: 43em;
+}
+.botonCopiar{
+     border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 565px;
+    position: absolute;
+    width: 336px;
+    left: 58em;
+    right: 1em;
+    top: 2em;
+
+}
+
