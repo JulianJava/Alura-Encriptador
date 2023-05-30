@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
 	<meta charset="utf-8">
-	<title>Encriptador</title>
 	<link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="Encriptador.css">
+    <title>Encriptador</title>
   </head>
   <body>
     <header>
@@ -12,30 +12,34 @@
     </header>
    <main>
    	 <section>
-       <textarea placeholder="Ingrese texto a encriptar aqui"class="Escrito" cols="70" rows="300"></textarea>
+       <textarea placeholder="Ingrese texto a encriptar aqui"class="Escrito" cols="39" rows="30"></textarea>
        <div>
         <img src="imagenes/Vector2.png" alt="aviso de precaucion"class="aviso">
         <p class="informe" >Solo letras minusculas y sin acentos</p>
        </div>
        <div>
-        <button type="button" class="Encriptar">
+        <button type="button" class="Encriptar"onclick="btnEncriptar()">
          <h6 class="botonTexto">Encriptar</h6>
    	    </button>
-        <button type="button" class="desencriptar">
+        <button type="button" class="desencriptar"onclick="btnDesencriptar()">
          <h6 class="botonTexto">Desencriptar</h6>
    	    </button>
    	   </div>
    	</section>
     <section>
-     <textarea class="texto" cols="20" rows="10"></textarea>
+     <textarea class="texto" cols="20" rows="10" ></textarea>
      <div>
-      <button type="button" class="botonCopiar">
+      <button type="button" class="botonCopiar"onclick="copiar()">
        copiar texto
       </button>
      </div>	
     </section>
    </main>
+   <script src="script/script.js"></script>
   </body>
   <footer>
+  	 <img src="imagenes/Vector.png" alt="Logo de alura" class="Logo">
+  	 <p class="nombreProyecto">-Proyecto creado por:Julian Eloy Belmonte</p>
+  	 <a href="https://github.com/JulianJava/Alura-Encriptador"class="nombreProyecto">Git Hub del proyecto</a>
   </footer>
 </html>

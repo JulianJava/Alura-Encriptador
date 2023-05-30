@@ -27,6 +27,7 @@ main{
     margin-top: 30px;
     padding: 2px;
     text-transform: lowercase;
+    font-size: 32px;
 }
 ::placeholder {
  color: #0A3871;
@@ -128,4 +129,12 @@ top: 43em;
     top: 2em;
 
 }
-
+footer{
+    background-color: grey;
+    margin-top: 5.2em;
+    font-family:'Inter';
+}
+.nombreProyecto{
+    display: inline;
+    font-size: 0.6em;
+}
