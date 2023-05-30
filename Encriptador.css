@@ -51,26 +51,26 @@ line-height: 150%;
     margin-left: 98px;
     margin-top: 20px;
     padding-left: 20px;
-    position: absolute;
-    left: 700px;
-    right: 40px;
-    top: 30px;
+    position: static;
+    left: 110vh;
+    right: 10vh;
+    top: 10vh;
 }
 .texto:focus {
     outline: none;
 }
 .aviso{
 position: absolute;
-left: 120px;
-top: 560px;
+left: 15vh;
+top: 85vh;
 }
 .informe{
 color: #495057;
 font-size:12px;
 opacity: 0.8;
 position: absolute;
-left: 142px;
-top: 544px;
+left: 18vh;
+top: 82.5vh;
 }
 .Encriptar{ 
 display: flex; 
@@ -83,8 +83,8 @@ cursor: pointer;
 height: 67px;
 width: 328px;
 position: absolute;
-left: 100px;
-top: 567px;
+left: 15vh;
+top: 86vh;
 }
 .botonTexto{
 text-align: center;
@@ -105,8 +105,8 @@ height: 67px;
 margin-left: 30px;
 width: 328px;
 position: absolute;
-left: 430px;
-top: 567px;
+left: 62vh;
+top: 86vh;
 }
 .botonCopiar{
      border: 1px solid #0A3871;
@@ -118,6 +118,6 @@ top: 567px;
     margin-top: 565px;
     position: absolute;
     width: 336px;
-    right: 100px;
-    top: 19px;
+    right: 14vh;
+    top: 3vh;
 }

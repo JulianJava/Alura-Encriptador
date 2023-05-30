@@ -5,18 +5,19 @@ copia.style.display = "none"
 
 
 function validarTexto(){
-     let textoEscrito = document.querySelector(".Escrito").value;
+    let textoEscrito = document.querySelector(".Escrito").value;
     let validador = textoEscrito.match(/^[a-z ]*$/);
 
     if(!validador || validador === 0) {
-        alert("Recuerda que Solo son permitidas letras minúsculas y sin acentos o caracteres especiales")
+        alert("Solo son permitidas letras minúsculas y sin acentos")
         location.reload();
-        return true;    }
+        return true;
+    }
 }
 
 
 function btnEncriptar(){
- if(!validarTexto()) {
+    if(!validarTexto()) {
         const textoEncriptado = encriptar(textArea.value)
         mensaje.value = textoEncriptado
         mensaje.style.backgroundImage = "none"
@@ -48,7 +49,7 @@ function btnDesencriptar(){
     const textoEncriptado = desencriptar(textArea.value)
     mensaje.value = textoEncriptado
     textArea.value = "";
-    
+
 }
 
 
@@ -71,7 +72,5 @@ function copiar(){
     mensaje.select();
     navigator.clipboard.writeText(mensaje.value)
     mensaje.value = "";
-    
+
 }
-
-
