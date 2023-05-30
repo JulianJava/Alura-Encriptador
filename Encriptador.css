@@ -52,29 +52,25 @@ line-height: 150%;
     margin-top: 20px;
     padding-left: 20px;
     position: absolute;
-    left: 60em;
-    right: 10em;
-    top: 1em;
-
+    left: 700px;
+    right: 40px;
+    top: 30px;
 }
 .texto:focus {
     outline: none;
 }
 .aviso{
 position: absolute;
-left: 6em;
-right: 6em;
-top: 17.9em;
-bottom: 5em;
+left: 120px;
+top: 560px;
 }
 .informe{
 color: #495057;
 font-size:12px;
 opacity: 0.8;
 position: absolute;
-left: 18em;
-right: 6em;
-top: 46.2em;
+left: 142px;
+top: 544px;
 }
 .Encriptar{ 
 display: flex; 
@@ -87,9 +83,8 @@ cursor: pointer;
 height: 67px;
 width: 328px;
 position: absolute;
-left: 15em;
-right: 15em;
-top: 43em;
+left: 100px;
+top: 567px;
 }
 .botonTexto{
 text-align: center;
@@ -110,9 +105,8 @@ height: 67px;
 margin-left: 30px;
 width: 328px;
 position: absolute;
-left: 40em;
-right: 40em;
-top: 43em;
+left: 430px;
+top: 567px;
 }
 .botonCopiar{
      border: 1px solid #0A3871;
@@ -124,17 +118,6 @@ top: 43em;
     margin-top: 565px;
     position: absolute;
     width: 336px;
-    left: 58em;
-    right: 1em;
-    top: 2em;
-
-}
-footer{
-    background-color: grey;
-    margin-top: 5.2em;
-    font-family:'Inter';
-}
-.nombreProyecto{
-    display: inline;
-    font-size: 0.6em;
+    right: 100px;
+    top: 19px;
 }
